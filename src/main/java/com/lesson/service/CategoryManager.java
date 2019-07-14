@@ -5,14 +5,14 @@ import com.lesson.model.Category;
 import java.util.List;
 
 public interface CategoryManager {
-    public List<Category> getAllCategories();
+    List<Category> getAllCategories();
 
-    public Category getCategoryById(int cid);
+    Category getCategoryById(int cid);
 
-    public int addCategory(String cname);
+    int addCategory(String cname);
 
-    public int updateCategoryById(int cid, String cname);
+    int updateCategoryById(int cid, String cname);
 
-    public int deleteCategoryById(int cid);
+    int deleteCategoryById(int cid);
 }
 
